@@ -147,7 +147,7 @@ Tests cover document processing, OCR (rotation, blur, low resolution, TIFF, blan
 backend/app/{api,processing,extraction}   routes | PDF, OCR, sheets | LLM, rules, grounding, segmentation
 backend/app/{pipeline,validation,search,embeddings,worker}.py
 backend/tests/                            automated tests          eval/   dataset generator, evaluation, benchmark
-frontend/src/                             React UI                 docs/   architecture, database, evaluation, AI disclosure
+frontend/src/                             React UI                 docs/   architecture, database, evaluation
 ```
 More: [architecture](docs/architecture.md), [database](docs/database.md) ([schema.sql](docs/schema.sql)),
-[evaluation](docs/evaluation.md), [test results](docs/test-results.md), [AI disclosure and prompts](docs/AI_DISCLOSURE.md), [walkthrough script](docs/WALKTHROUGH.md).
+[evaluation](docs/evaluation.md), [test results](docs/test-results.md).
