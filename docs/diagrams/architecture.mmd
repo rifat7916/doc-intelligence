@@ -1,0 +1,11 @@
+flowchart LR
+  user(["Browser<br/>React UI"]) -->|HTTP| nginx["nginx<br/>static files and API proxy<br/>adds the API key"]
+  nginx -->|"/api/v1"| api["FastAPI API<br/>auth, rate limit, validation, REST"]
+  api -->|enqueue job| redis[("Redis<br/>Celery broker")]
+  redis -->|job| worker["Celery workers<br/>OCR and AI pipeline<br/>scale with --scale worker=N"]
+  api <--> pg[("PostgreSQL 16 + pgvector<br/>metadata, text, results,<br/>issues, history, vectors")]
+  worker <--> pg
+  api --- files[("Upload volume<br/>original files")]
+  worker --- files
+  worker --> ocr["PyMuPDF, OpenCV,<br/>Tesseract, pandas"]
+  worker -->|"extraction + embeddings"| gemini[["Gemini API"]]

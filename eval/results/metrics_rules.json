@@ -1,0 +1,76 @@
+{
+  "extractor": "rules",
+  "models": [],
+  "database": "postgresql",
+  "documents": 42,
+  "valid_documents": 36,
+  "corrupt_documents": 6,
+  "field_accuracy": 0.984375,
+  "invoice_exact_match": 0.9166666666666666,
+  "line_item_f1": 0.9863760217983651,
+  "document_success_rate": 1.0,
+  "failure_rate_valid_documents": 0.0,
+  "failure_rate_all_documents": 0.11904761904761904,
+  "mean_ms_per_document": 514.7824922222226,
+  "p95_ms_per_document": 1418.4389887500117,
+  "ms_per_page": 463.3042430000003,
+  "per_field": {
+    "invoice_number": {
+      "correct": 47,
+      "missing": 1
+    },
+    "invoice_date": {
+      "correct": 48
+    },
+    "supplier_name": {
+      "correct": 45,
+      "wrong": 3
+    },
+    "customer_name": {
+      "correct": 47,
+      "missing": 1
+    },
+    "subtotal": {
+      "correct": 47,
+      "missing": 1
+    },
+    "tax": {
+      "correct": 48
+    },
+    "total": {
+      "correct": 48
+    },
+    "currency": {
+      "correct": 48
+    }
+  },
+  "benchmark": {
+    "digital": {
+      "pages": 1000,
+      "invoices": 1000,
+      "status": "needs_review",
+      "seconds": 5.8128704760000005,
+      "size_mb": 6.163607,
+      "stages_ms": {
+        "parse": 645,
+        "extract": 669,
+        "validate": 3835,
+        "index": 643,
+        "pipeline": 5801
+      },
+      "peak_rss_mb": 253.609375,
+      "chunks": 400
+    },
+    "scanned": {
+      "pages": 20,
+      "ocr_pages": 20,
+      "invoices": 18,
+      "seconds": 29.345901697999977,
+      "status": "needs_review",
+      "sec_per_page": 1.4672950848999988,
+      "ocr_threads": 2,
+      "cpus": 1
+    },
+    "markdown": "Measured on 1 CPU core(s) with the offline `rules` extractor and hash embedder, so these numbers are the pipeline only; with Gemini enabled add one API call per invoice (latency and quota are the limit, see `LLM_CONCURRENCY`):\n\n| Test | Pages | Invoices found (one per page expected) | Total time | Throughput | Peak memory of the process |\n|---|---|---|---|---|---|\n| Digital PDF (6.2 MB) | 1000 | 1000 of 1000 | 5.8 s | 172.0 pages/s | 254 MB |\n| Scanned PDF (OCR) | 20 | 18 of 20 | 29.3 s | 1.47 s/page | - |\n\nPer-stage time for the large PDF (ms): parse 645, extract 669, validate 3835, index 643, pipeline 5801.\nSearch index: 400 chunks embedded (text chunks are capped per document; keyword search always covers the full text).\nOn the scanned PDF 2 page(s) were merged into the previous invoice: the OCR did not read their invoice number clearly enough to start a new invoice (the splitter is conservative on purpose). These documents are flagged for review.\nOCR cost is linear in pages: a 1000-page fully scanned PDF would take about 24 min on this machine with 2 OCR thread(s) (**estimate** extrapolated from the measured 1.47 s/page; it divides by the number of worker containers x OCR threads)."
+  }
+}

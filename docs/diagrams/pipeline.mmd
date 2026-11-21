@@ -1,0 +1,24 @@
+flowchart TD
+  A[Upload] --> B{"Type by content<br/>magic bytes, size, extension"}
+  B -->|rejected| X["HTTP 415 / 413 with reason"]
+  B -->|PDF| C["PyMuPDF text layer<br/>per page"]
+  C -->|page has little text| D["Render page, OpenCV clean-up<br/>deskew, denoise, Tesseract OCR"]
+  B -->|JPG PNG TIFF| D
+  B -->|XLSX XLS CSV| E["pandas: every sheet"]
+  C --> F["Text of each page"]
+  D --> F
+  E --> G{"Header row with<br/>invoice columns?"}
+  G -->|yes| H["Map columns by synonym<br/>group rows into invoices"]
+  G -->|"no: form-style sheet"| F
+  F --> I["Split into invoices<br/>new invoice number in page header"]
+  I --> J["Gemini: JSON with value,<br/>confidence and evidence"]
+  J -->|"API down or no quota"| K["Regex rules fallback<br/>flagged for review"]
+  J --> L["Grounding check:<br/>values not in the text are dropped"]
+  K --> M
+  L --> M["Validation: missing fields, numbers,<br/>subtotal + tax = total, line items, duplicates"]
+  H --> M
+  M --> N[("Save pages, invoices,<br/>issues, history")]
+  N --> O["Chunk and embed<br/>search index"]
+  O --> P{"Any error<br/>or warning?"}
+  P -->|yes| Q[needs_review]
+  P -->|no| R[completed]

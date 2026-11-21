@@ -1,0 +1,2160 @@
+[
+ {
+  "file": "digital_01.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2026/325",
+    "invoice_date": "2025-01-07",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Care Guide Services",
+    "subtotal": 2408.41,
+    "tax": 239.84,
+    "total": 2653.25,
+    "currency": "USD",
+    "discount": 10.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 11.0,
+      "unit_price": 41.31,
+      "amount": 454.41
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 10.0,
+      "unit_price": 187.5,
+      "amount": 1875.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 1.0,
+      "unit_price": 54.0,
+      "amount": 54.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 2.0,
+      "unit_price": 12.5,
+      "amount": 25.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Blue Harbor Supplies 88 Market Street Dhaka 1212 Care Guide Services House 22, Road 9 Dhaka 1209 2026/325 2025-01-07 Blood pressure monitor Oxygen concentrator service Home nursing visit Nitrile gloves, box of 100"
+ },
+ {
+  "file": "digital_02.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2026/180",
+    "invoice_date": "2026-08-15",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 886.9,
+    "tax": 88.69,
+    "total": 975.59,
+    "currency": "USD",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Medical supplies kit",
+      "quantity": 7.0,
+      "unit_price": 108.0,
+      "amount": 756.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 6.0,
+      "unit_price": 13.75,
+      "amount": 82.5
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 10.0,
+      "unit_price": 4.84,
+      "amount": 48.4
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Meghna Office Systems 31 Station Road Khulna 9000 Cottage Home Care 45 Elm Street Boston MA 02108 2026/180 15/08/2026 Medical supplies kit Nitrile gloves, box of 100 Hand sanitizer 500ml"
+ },
+ {
+  "file": "digital_03.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "BN-37460",
+    "invoice_date": "2026-07-01",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Riverside Clinic",
+    "subtotal": 463.43,
+    "tax": 23.17,
+    "total": 486.6,
+    "currency": "USD",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 7.0,
+      "unit_price": 50.49,
+      "amount": 353.43
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 8.0,
+      "unit_price": 13.75,
+      "amount": 110.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Riverside Clinic 3 River Lane Dhaka 1000 BN-37460 01/07/2026 Blood pressure monitor Nitrile gloves, box of 100"
+ },
+ {
+  "file": "digital_04.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "BN-95909",
+    "invoice_date": "2025-09-29",
+    "supplier_name": "Sunrise Equipment LLC",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 605.26,
+    "tax": 60.53,
+    "total": 680.79,
+    "currency": "GBP",
+    "discount": null,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 1.0,
+      "unit_price": 4.4,
+      "amount": 4.4
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 1.0,
+      "unit_price": 7.43,
+      "amount": 7.43
+     },
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 7.0,
+      "unit_price": 50.49,
+      "amount": 353.43
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 2.0,
+      "unit_price": 120.0,
+      "amount": 240.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Sunrise Equipment LLC 77 Sunrise Blvd Austin TX 78701 Harmony Senior Living 18 Oak Court Chicago IL 60601 BN-95909 29 Sep 2025 Hand sanitizer 500ml Printer paper A4 ream Blood pressure monitor Medical supplies kit"
+ },
+ {
+  "file": "digital_05.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2026-9764",
+    "invoice_date": "2026-07-04",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1915.64,
+    "tax": 287.35,
+    "total": 2202.99,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Medical supplies kit",
+      "quantity": 2.0,
+      "unit_price": 108.0,
+      "amount": 216.0
+     },
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 2.0,
+      "unit_price": 45.9,
+      "amount": 91.8
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 11.0,
+      "unit_price": 60.0,
+      "amount": 660.0
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 11.0,
+      "unit_price": 8.44,
+      "amount": 92.84
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 10.0,
+      "unit_price": 85.5,
+      "amount": 855.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Unity Health Partners 60 Unity Square Dhaka 1207 INV-2026-9764 04 Jul 2026 Medical supplies kit Blood pressure monitor Home nursing visit Printer paper A4 ream Consulting hours"
+ },
+ {
+  "file": "digital_06.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-2505",
+    "invoice_date": "2026-09-06",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 1906.5,
+    "tax": 284.48,
+    "total": 2180.98,
+    "currency": "GBP",
+    "discount": 10.0,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 9.0,
+      "unit_price": 95.0,
+      "amount": 855.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 9.0,
+      "unit_price": 76.5,
+      "amount": 688.5
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 11.0,
+      "unit_price": 33.0,
+      "amount": 363.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Meghna Office Systems 31 Station Road Khulna 9000 Harmony Senior Living 18 Oak Court Chicago IL 60601 INV-2025-2505 September 06, 2026 Consulting hours Wheelchair rental (monthly) Patient transport service"
+ },
+ {
+  "file": "digital_07.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-6107",
+    "invoice_date": "2026-01-18",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Riverside Clinic",
+    "subtotal": 959.76,
+    "tax": 140.21,
+    "total": 1094.97,
+    "currency": "EUR",
+    "discount": 25.0,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 2.0,
+      "unit_price": 57.38,
+      "amount": 114.76
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 2.0,
+      "unit_price": 85.0,
+      "amount": 170.0
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 3.0,
+      "unit_price": 187.5,
+      "amount": 562.5
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 9.0,
+      "unit_price": 12.5,
+      "amount": 112.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Blue Harbor Supplies 88 Market Street Dhaka 1212 Riverside Clinic 3 River Lane Dhaka 1000 A-6107 January 18, 2026 Blood pressure monitor Wheelchair rental (monthly) Oxygen concentrator service Nitrile gloves, box of 100"
+ },
+ {
+  "file": "digital_08.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "BN-14117",
+    "invoice_date": "2025-10-13",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 1401.5,
+    "tax": 69.58,
+    "total": 1461.08,
+    "currency": "USD",
+    "discount": 10.0,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 10.0,
+      "unit_price": 12.5,
+      "amount": 125.0
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 10.0,
+      "unit_price": 120.0,
+      "amount": 1200.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 1.0,
+      "unit_price": 76.5,
+      "amount": 76.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Blue Harbor Supplies 88 Market Street Dhaka 1212 Cottage Home Care 45 Elm Street Boston MA 02108 BN-14117 2025-10-13 Nitrile gloves, box of 100 Medical supplies kit Wheelchair rental (monthly)"
+ },
+ {
+  "file": "digital_09.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "BN-35112",
+    "invoice_date": "2026-03-09",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 2854.09,
+    "tax": 285.41,
+    "total": 3159.5,
+    "currency": "EUR",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 2.0,
+      "unit_price": 118.75,
+      "amount": 237.5
+     },
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 6.0,
+      "unit_price": 57.38,
+      "amount": 344.28
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 7.0,
+      "unit_price": 187.5,
+      "amount": 1312.5
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 12.0,
+      "unit_price": 67.5,
+      "amount": 810.0
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 11.0,
+      "unit_price": 3.96,
+      "amount": 43.56
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 1.0,
+      "unit_price": 106.25,
+      "amount": 106.25
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Unity Health Partners 60 Unity Square Dhaka 1207 BN-35112 2026-03-09 Consulting hours Blood pressure monitor Oxygen concentrator service Cleaning service Hand sanitizer 500ml Wheelchair rental (monthly)"
+ },
+ {
+  "file": "digital_10.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-7930",
+    "invoice_date": "2025-06-08",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Care Guide Services",
+    "subtotal": 1678.59,
+    "tax": 167.86,
+    "total": 1846.45,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 2.0,
+      "unit_price": 6.75,
+      "amount": 13.5
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 3.0,
+      "unit_price": 15.63,
+      "amount": 46.89
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 8.0,
+      "unit_price": 106.25,
+      "amount": 850.0
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 4.0,
+      "unit_price": 187.5,
+      "amount": 750.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 1.0,
+      "unit_price": 18.2,
+      "amount": 18.2
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Care Guide Services House 22, Road 9 Dhaka 1209 A-7930 08/06/2025 Printer paper A4 ream Nitrile gloves, box of 100 Wheelchair rental (monthly) Oxygen concentrator service Disposable aprons, pack of 50"
+ },
+ {
+  "file": "digital_multi_invoice.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-2343",
+    "invoice_date": "2026-08-21",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 2675.8,
+    "tax": 132.54,
+    "total": 2798.34,
+    "currency": "GBP",
+    "discount": 25.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 9.0,
+      "unit_price": 85.0,
+      "amount": 765.0
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 1.0,
+      "unit_price": 108.0,
+      "amount": 108.0
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 3.0,
+      "unit_price": 135.0,
+      "amount": 405.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 10.0,
+      "unit_price": 16.38,
+      "amount": 163.8
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 11.0,
+      "unit_price": 95.0,
+      "amount": 1045.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 7.0,
+      "unit_price": 27.0,
+      "amount": 189.0
+     }
+    ]
+   },
+   {
+    "invoice_number": "BN-44760",
+    "invoice_date": "2026-01-14",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 1386.39,
+    "tax": 207.96,
+    "total": 1614.35,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 11.0,
+      "unit_price": 50.49,
+      "amount": 555.39
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 8.0,
+      "unit_price": 33.0,
+      "amount": 264.0
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 2.0,
+      "unit_price": 67.5,
+      "amount": 135.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 8.0,
+      "unit_price": 54.0,
+      "amount": 432.0
+     }
+    ]
+   },
+   {
+    "invoice_number": "2025/749",
+    "invoice_date": "2025-02-15",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1311.45,
+    "tax": 131.15,
+    "total": 1442.6,
+    "currency": "GBP",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 5.0,
+      "unit_price": 76.5,
+      "amount": 382.5
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 2.0,
+      "unit_price": 4.4,
+      "amount": 8.8
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 5.0,
+      "unit_price": 7.43,
+      "amount": 37.15
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 10.0,
+      "unit_price": 30.0,
+      "amount": 300.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 12.0,
+      "unit_price": 13.75,
+      "amount": 165.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 4.0,
+      "unit_price": 104.5,
+      "amount": 418.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Northwind Traders Ltd 12 Harbor Road Chattogram 4100 Unity Health Partners 60 Unity Square Dhaka 1207 A-2343 21/08/2026 Wheelchair rental (monthly) Medical supplies kit Oxygen concentrator service Disposable aprons, pack of 50 Consulting hours Patient transport service Meghna Office Systems 31 Station Road Khulna 9000 Cottage Home Care 45 Elm Street Boston MA 02108 BN-44760 14 Jan 2026 Blood pressure monitor Patient transport service Cleaning service Home nursing visit Meghna Office Systems 31 Station Road Khulna 9000 Unity Health Partners 60 Unity Square Dhaka 1207 2025/749 15 Feb 2025 Wheelchair rental (monthly) Hand sanitizer 500ml Printer paper A4 ream Patient transport service Nitrile gloves, box of 100 Consulting hours"
+ },
+ {
+  "file": "scanned_01_light.pdf",
+  "kind": "scanned_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/782",
+    "invoice_date": "2026-07-28",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 2129.75,
+    "tax": 315.71,
+    "total": 2420.46,
+    "currency": "EUR",
+    "discount": 25.0,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 2.0,
+      "unit_price": 6.75,
+      "amount": 13.5
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 9.0,
+      "unit_price": 67.5,
+      "amount": 607.5
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 6.0,
+      "unit_price": 150.0,
+      "amount": 900.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 7.0,
+      "unit_price": 85.0,
+      "amount": 595.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 1.0,
+      "unit_price": 13.75,
+      "amount": 13.75
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Meghna Office Systems 31 Station Road Khulna 9000 Cottage Home Care 45 Elm Street Boston MA 02108 2025/782 July 28, 2026 Printer paper A4 ream Cleaning service Oxygen concentrator service Wheelchair rental (monthly) Nitrile gloves, box of 100"
+ },
+ {
+  "file": "scanned_02_light.pdf",
+  "kind": "scanned_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/304",
+    "invoice_date": "2025-11-09",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 1885.0,
+    "tax": 188.5,
+    "total": 2073.5,
+    "currency": "USD",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Cleaning service",
+      "quantity": 12.0,
+      "unit_price": 82.5,
+      "amount": 990.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 7.0,
+      "unit_price": 85.0,
+      "amount": 595.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 5.0,
+      "unit_price": 60.0,
+      "amount": 300.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Cottage Home Care 45 Elm Street Boston MA 02108 2025/304 November 09, 2025 Cleaning service Wheelchair rental (monthly) Home nursing visit"
+ },
+ {
+  "file": "scanned_03_medium.pdf",
+  "kind": "scanned_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-6139",
+    "invoice_date": "2026-09-13",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 1298.75,
+    "tax": 64.94,
+    "total": 1383.69,
+    "currency": "GBP",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Patient transport service",
+      "quantity": 11.0,
+      "unit_price": 37.5,
+      "amount": 412.5
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 11.0,
+      "unit_price": 13.75,
+      "amount": 151.25
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 1.0,
+      "unit_price": 135.0,
+      "amount": 135.0
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 5.0,
+      "unit_price": 120.0,
+      "amount": 600.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Harmony Senior Living 18 Oak Court Chicago IL 60601 A-6139 2026-09-13 Patient transport service Nitrile gloves, box of 100 Oxygen concentrator service Medical supplies kit"
+ },
+ {
+  "file": "scanned_04_medium.pdf",
+  "kind": "scanned_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/837",
+    "invoice_date": "2026-02-23",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Riverside Clinic",
+    "subtotal": 712.5,
+    "tax": 105.38,
+    "total": 822.88,
+    "currency": "USD",
+    "discount": 10.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 1.0,
+      "unit_price": 150.0,
+      "amount": 150.0
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 6.0,
+      "unit_price": 93.75,
+      "amount": 562.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Riverside Clinic 3 River Lane Dhaka 1000 2025/837 2026-02-23 Oxygen concentrator service Cleaning service"
+ },
+ {
+  "file": "scanned_05_medium.pdf",
+  "kind": "scanned_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/774",
+    "invoice_date": "2026-06-12",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 2578.14,
+    "tax": 127.66,
+    "total": 2695.8,
+    "currency": "BDT",
+    "discount": 25.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 9.0,
+      "unit_price": 3.96,
+      "amount": 35.64
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 5.0,
+      "unit_price": 82.5,
+      "amount": 412.5
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 4.0,
+      "unit_price": 75.0,
+      "amount": 300.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 10.0,
+      "unit_price": 33.0,
+      "amount": 330.0
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 8.0,
+      "unit_price": 187.5,
+      "amount": 1500.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Cottage Home Care 45 Elm Street Boston MA 02108 2025/774 12/06/2026 Hand sanitizer 500ml Cleaning service Home nursing visit Patient transport service Oxygen concentrator service"
+ },
+ {
+  "file": "scanned_06_heavy.pdf",
+  "kind": "scanned_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2026-6548",
+    "invoice_date": "2026-03-12",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 2660.9,
+    "tax": 266.09,
+    "total": 2946.99,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 1.0,
+      "unit_price": 45.9,
+      "amount": 45.9
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 8.0,
+      "unit_price": 135.0,
+      "amount": 1080.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 8.0,
+      "unit_price": 75.0,
+      "amount": 600.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 11.0,
+      "unit_price": 85.0,
+      "amount": 935.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Blue Harbor Supplies 88 Market Street Dhaka 1212 Cottage Home Care 45 Elm Street Boston MA 02108 INV-2026-6548 12/03/2026 Blood pressure monitor Oxygen concentrator service Home nursing visit Wheelchair rental (monthly)"
+ },
+ {
+  "file": "image_01_clean.png",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-5543",
+    "invoice_date": "2026-10-04",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1735.0,
+    "tax": 173.5,
+    "total": 1928.5,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 8.0,
+      "unit_price": 13.75,
+      "amount": 110.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 8.0,
+      "unit_price": 118.75,
+      "amount": 950.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 9.0,
+      "unit_price": 75.0,
+      "amount": 675.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Northwind Traders Ltd 12 Harbor Road Chattogram 4100 Unity Health Partners 60 Unity Square Dhaka 1207 A-5543 04 Oct 2026 Nitrile gloves, box of 100 Consulting hours Home nursing visit"
+ },
+ {
+  "file": "image_02_light.png",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-9890",
+    "invoice_date": "2026-03-02",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Riverside Clinic",
+    "subtotal": 625.0,
+    "tax": 62.5,
+    "total": 707.5,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Patient transport service",
+      "quantity": 9.0,
+      "unit_price": 27.0,
+      "amount": 243.0
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 3.0,
+      "unit_price": 120.0,
+      "amount": 360.0
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 4.0,
+      "unit_price": 5.5,
+      "amount": 22.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Blue Harbor Supplies 88 Market Street Dhaka 1212 Riverside Clinic 3 River Lane Dhaka 1000 A-9890 02 Mar 2026 Patient transport service Medical supplies kit Hand sanitizer 500ml"
+ },
+ {
+  "file": "image_03_medium.png",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/599",
+    "invoice_date": "2026-03-23",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 626.04,
+    "tax": 93.91,
+    "total": 739.95,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 8.0,
+      "unit_price": 16.38,
+      "amount": 131.04
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 6.0,
+      "unit_price": 82.5,
+      "amount": 495.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Unity Health Partners 60 Unity Square Dhaka 1207 2025/599 March 23, 2026 Disposable aprons, pack of 50 Cleaning service"
+ },
+ {
+  "file": "image_04_light.jpg",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "BN-16590",
+    "invoice_date": "2026-04-11",
+    "supplier_name": "Apex Cleaning Co",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 1193.0,
+    "tax": 178.95,
+    "total": 1391.95,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 9.0,
+      "unit_price": 85.5,
+      "amount": 769.5
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 7.0,
+      "unit_price": 54.0,
+      "amount": 378.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 2.0,
+      "unit_price": 22.75,
+      "amount": 45.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Apex Cleaning Co 200 Industrial Way Gazipur 1700 Harmony Senior Living 18 Oak Court Chicago IL 60601 BN-16590 April 11, 2026 Consulting hours Home nursing visit Disposable aprons, pack of 50"
+ },
+ {
+  "file": "image_05_medium.jpg",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "BN-41266",
+    "invoice_date": "2026-04-22",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 1204.0,
+    "tax": 60.2,
+    "total": 1279.2,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 1.0,
+      "unit_price": 13.75,
+      "amount": 13.75
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 4.0,
+      "unit_price": 85.5,
+      "amount": 342.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 11.0,
+      "unit_price": 76.5,
+      "amount": 841.5
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 1.0,
+      "unit_price": 6.75,
+      "amount": 6.75
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Meghna Office Systems 31 Station Road Khulna 9000 Harmony Senior Living 18 Oak Court Chicago IL 60601 BN-41266 2026-04-22 Nitrile gloves, box of 100 Consulting hours Wheelchair rental (monthly) Printer paper A4 ream"
+ },
+ {
+  "file": "image_06_heavy.jpg",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-5689",
+    "invoice_date": "2026-06-03",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 877.86,
+    "tax": 43.89,
+    "total": 921.75,
+    "currency": "GBP",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 1.0,
+      "unit_price": 165.0,
+      "amount": 165.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 10.0,
+      "unit_price": 15.63,
+      "amount": 156.3
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 7.0,
+      "unit_price": 60.0,
+      "amount": 420.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 2.0,
+      "unit_price": 30.0,
+      "amount": 60.0
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 2.0,
+      "unit_price": 4.84,
+      "amount": 9.68
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 11.0,
+      "unit_price": 6.08,
+      "amount": 66.88
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Unity Health Partners 60 Unity Square Dhaka 1207 INV-2025-5689 2026-06-03 Oxygen concentrator service Nitrile gloves, box of 100 Home nursing visit Patient transport service Hand sanitizer 500ml Printer paper A4 ream"
+ },
+ {
+  "file": "tiff_multipage_light.tiff",
+  "kind": "image",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-9817",
+    "invoice_date": "2026-04-22",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 2471.25,
+    "tax": 366.94,
+    "total": 2828.19,
+    "currency": "BDT",
+    "discount": 25.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Cleaning service",
+      "quantity": 11.0,
+      "unit_price": 93.75,
+      "amount": 1031.25
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 12.0,
+      "unit_price": 120.0,
+      "amount": 1440.0
+     }
+    ]
+   },
+   {
+    "invoice_number": "2025/599",
+    "invoice_date": "2025-09-22",
+    "supplier_name": "Apex Cleaning Co",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 1337.5,
+    "tax": 200.63,
+    "total": 1553.13,
+    "currency": "EUR",
+    "discount": null,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Patient transport service",
+      "quantity": 4.0,
+      "unit_price": 37.5,
+      "amount": 150.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 10.0,
+      "unit_price": 118.75,
+      "amount": 1187.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Harmony Senior Living 18 Oak Court Chicago IL 60601 A-9817 22/04/2026 Cleaning service Medical supplies kit Apex Cleaning Co 200 Industrial Way Gazipur 1700 Cottage Home Care 45 Elm Street Boston MA 02108 2025/599 22/09/2025 Patient transport service Consulting hours"
+ },
+ {
+  "file": "sheet_tabular_multi.xlsx",
+  "kind": "xlsx",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/514",
+    "invoice_date": "2026-08-19",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1819.81,
+    "tax": 271.47,
+    "total": 2096.28,
+    "currency": "BDT",
+    "discount": 10.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 8.0,
+      "unit_price": 12.5,
+      "amount": 100.0
+     },
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 12.0,
+      "unit_price": 57.38,
+      "amount": 688.56
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 11.0,
+      "unit_price": 93.75,
+      "amount": 1031.25
+     }
+    ]
+   },
+   {
+    "invoice_number": "2026/202",
+    "invoice_date": "2025-08-21",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1170.4,
+    "tax": 175.56,
+    "total": 1360.96,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Medical supplies kit",
+      "quantity": 5.0,
+      "unit_price": 120.0,
+      "amount": 600.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 2.0,
+      "unit_price": 95.0,
+      "amount": 190.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 6.0,
+      "unit_price": 27.0,
+      "amount": 162.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 12.0,
+      "unit_price": 18.2,
+      "amount": 218.4
+     }
+    ]
+   },
+   {
+    "invoice_number": "2026/590",
+    "invoice_date": "2025-07-08",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1377.5,
+    "tax": 137.75,
+    "total": 1535.25,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Patient transport service",
+      "quantity": 9.0,
+      "unit_price": 33.0,
+      "amount": 297.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 12.0,
+      "unit_price": 85.0,
+      "amount": 1020.0
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 11.0,
+      "unit_price": 5.5,
+      "amount": 60.5
+     }
+    ]
+   },
+   {
+    "invoice_number": "INV-2026-4872",
+    "invoice_date": "2025-08-01",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Care Guide Services",
+    "subtotal": 1909.0,
+    "tax": 95.45,
+    "total": 2019.45,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 3.0,
+      "unit_price": 104.5,
+      "amount": 313.5
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 2.0,
+      "unit_price": 12.5,
+      "amount": 25.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 2.0,
+      "unit_price": 22.75,
+      "amount": 45.5
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 10.0,
+      "unit_price": 85.0,
+      "amount": 850.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 9.0,
+      "unit_price": 75.0,
+      "amount": 675.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Northwind Traders Ltd 12 Harbor Road Chattogram 4100 Unity Health Partners 60 Unity Square Dhaka 1207 2025/514 19 Aug 2026 Nitrile gloves, box of 100 Blood pressure monitor Cleaning service Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Unity Health Partners 60 Unity Square Dhaka 1207 2026/202 21 Aug 2025 Medical supplies kit Consulting hours Patient transport service Disposable aprons, pack of 50 Northwind Traders Ltd 12 Harbor Road Chattogram 4100 Unity Health Partners 60 Unity Square Dhaka 1207 2026/590 July 08, 2025 Patient transport service Wheelchair rental (monthly) Hand sanitizer 500ml Blue Harbor Supplies 88 Market Street Dhaka 1212 Care Guide Services House 22, Road 9 Dhaka 1209 INV-2026-4872 August 01, 2025 Consulting hours Nitrile gloves, box of 100 Disposable aprons, pack of 50 Wheelchair rental (monthly) Home nursing visit"
+ },
+ {
+  "file": "sheet_two_sheets.xlsx",
+  "kind": "xlsx",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-3793",
+    "invoice_date": "2025-08-28",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 408.64,
+    "tax": 57.55,
+    "total": 441.19,
+    "currency": "EUR",
+    "discount": 25.0,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Home nursing visit",
+      "quantity": 3.0,
+      "unit_price": 54.0,
+      "amount": 162.0
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 7.0,
+      "unit_price": 8.44,
+      "amount": 59.08
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 12.0,
+      "unit_price": 15.63,
+      "amount": 187.56
+     }
+    ]
+   },
+   {
+    "invoice_number": "2026/852",
+    "invoice_date": "2025-01-27",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Care Guide Services",
+    "subtotal": 1570.35,
+    "tax": 157.04,
+    "total": 1727.39,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 1.0,
+      "unit_price": 45.9,
+      "amount": 45.9
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 5.0,
+      "unit_price": 4.84,
+      "amount": 24.2
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 8.0,
+      "unit_price": 54.0,
+      "amount": 432.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 8.0,
+      "unit_price": 33.0,
+      "amount": 264.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 12.0,
+      "unit_price": 22.75,
+      "amount": 273.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 5.0,
+      "unit_price": 106.25,
+      "amount": 531.25
+     }
+    ]
+   },
+   {
+    "invoice_number": "2026/456",
+    "invoice_date": "2025-11-25",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1150.0,
+    "tax": 57.5,
+    "total": 1207.5,
+    "currency": "GBP",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Home nursing visit",
+      "quantity": 9.0,
+      "unit_price": 75.0,
+      "amount": 675.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 5.0,
+      "unit_price": 95.0,
+      "amount": 475.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Blue Harbor Supplies 88 Market Street Dhaka 1212 Cottage Home Care 45 Elm Street Boston MA 02108 INV-2025-3793 2025-08-28 Home nursing visit Printer paper A4 ream Nitrile gloves, box of 100 Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Care Guide Services House 22, Road 9 Dhaka 1209 2026/852 2025-01-27 Blood pressure monitor Hand sanitizer 500ml Home nursing visit Patient transport service Disposable aprons, pack of 50 Wheelchair rental (monthly) Meghna Office Systems 31 Station Road Khulna 9000 Unity Health Partners 60 Unity Square Dhaka 1207 2026/456 25/11/2025 Home nursing visit Consulting hours"
+ },
+ {
+  "file": "sheet_form.xlsx",
+  "kind": "xlsx",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-9167",
+    "invoice_date": "2025-02-22",
+    "supplier_name": "Apex Cleaning Co",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 1861.35,
+    "tax": 186.14,
+    "total": 2047.49,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Patient transport service",
+      "quantity": 8.0,
+      "unit_price": 27.0,
+      "amount": 216.0
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 6.0,
+      "unit_price": 4.84,
+      "amount": 29.04
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 6.0,
+      "unit_price": 67.5,
+      "amount": 405.0
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 7.0,
+      "unit_price": 6.08,
+      "amount": 42.56
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 11.0,
+      "unit_price": 106.25,
+      "amount": 1168.75
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Apex Cleaning Co 200 Industrial Way Gazipur 1700 Harmony Senior Living 18 Oak Court Chicago IL 60601 A-9167 22/02/2025 Patient transport service Hand sanitizer 500ml Cleaning service Printer paper A4 ream Wheelchair rental (monthly)"
+ },
+ {
+  "file": "sheet_legacy.xls",
+  "kind": "xls",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "A-8905",
+    "invoice_date": "2025-09-07",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 1283.66,
+    "tax": 188.8,
+    "total": 1447.46,
+    "currency": "BDT",
+    "discount": 25.0,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 5.0,
+      "unit_price": 11.25,
+      "amount": 56.25
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 9.0,
+      "unit_price": 106.25,
+      "amount": 956.25
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 2.0,
+      "unit_price": 18.2,
+      "amount": 36.4
+     },
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 2.0,
+      "unit_price": 57.38,
+      "amount": 114.76
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 2.0,
+      "unit_price": 60.0,
+      "amount": 120.0
+     }
+    ]
+   },
+   {
+    "invoice_number": "BN-81228",
+    "invoice_date": "2025-09-02",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 1003.62,
+    "tax": 49.68,
+    "total": 1043.3,
+    "currency": "EUR",
+    "discount": 10.0,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 9.0,
+      "unit_price": 7.43,
+      "amount": 66.87
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 1.0,
+      "unit_price": 66.0,
+      "amount": 66.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 12.0,
+      "unit_price": 13.75,
+      "amount": 165.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 10.0,
+      "unit_price": 37.5,
+      "amount": 375.0
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 3.0,
+      "unit_price": 93.75,
+      "amount": 281.25
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 9.0,
+      "unit_price": 5.5,
+      "amount": 49.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Meghna Office Systems 31 Station Road Khulna 9000 Harmony Senior Living 18 Oak Court Chicago IL 60601 A-8905 07 Sep 2025 Nitrile gloves, box of 100 Wheelchair rental (monthly) Disposable aprons, pack of 50 Blood pressure monitor Home nursing visit Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Cottage Home Care 45 Elm Street Boston MA 02108 BN-81228 02 Sep 2025 Printer paper A4 ream Home nursing visit Nitrile gloves, box of 100 Patient transport service Cleaning service Hand sanitizer 500ml"
+ },
+ {
+  "file": "sheet_comma.csv",
+  "kind": "csv",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2026-0252",
+    "invoice_date": "2026-04-26",
+    "supplier_name": "Lakeside Pharmacy",
+    "customer_name": "Care Guide Services",
+    "subtotal": 2627.0,
+    "tax": 394.05,
+    "total": 3041.05,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 11.0,
+      "unit_price": 150.0,
+      "amount": 1650.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 8.0,
+      "unit_price": 85.5,
+      "amount": 684.0
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 3.0,
+      "unit_price": 82.5,
+      "amount": 247.5
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 2.0,
+      "unit_price": 22.75,
+      "amount": 45.5
+     }
+    ]
+   },
+   {
+    "invoice_number": "2025/400",
+    "invoice_date": "2026-03-18",
+    "supplier_name": "Blue Harbor Supplies",
+    "customer_name": "Riverside Clinic",
+    "subtotal": 3068.06,
+    "tax": 306.81,
+    "total": 3394.87,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Cleaning service",
+      "quantity": 2.0,
+      "unit_price": 75.0,
+      "amount": 150.0
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 11.0,
+      "unit_price": 132.0,
+      "amount": 1452.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 4.0,
+      "unit_price": 85.5,
+      "amount": 342.0
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 7.0,
+      "unit_price": 6.08,
+      "amount": 42.56
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 11.0,
+      "unit_price": 76.5,
+      "amount": 841.5
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 8.0,
+      "unit_price": 30.0,
+      "amount": 240.0
+     }
+    ]
+   },
+   {
+    "invoice_number": "2025/923",
+    "invoice_date": "2026-07-14",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 645.6,
+    "tax": 64.56,
+    "total": 730.16,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 20.0,
+    "line_items": [
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 10.0,
+      "unit_price": 12.5,
+      "amount": 125.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 8.0,
+      "unit_price": 18.2,
+      "amount": 145.6
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 4.0,
+      "unit_price": 93.75,
+      "amount": 375.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Lakeside Pharmacy 9 Lake Drive Rajshahi 6000 Care Guide Services House 22, Road 9 Dhaka 1209 INV-2026-0252 April 26, 2026 Oxygen concentrator service Consulting hours Cleaning service Disposable aprons, pack of 50 Blue Harbor Supplies 88 Market Street Dhaka 1212 Riverside Clinic 3 River Lane Dhaka 1000 2025/400 March 18, 2026 Cleaning service Medical supplies kit Consulting hours Printer paper A4 ream Wheelchair rental (monthly) Patient transport service Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Cottage Home Care 45 Elm Street Boston MA 02108 2025/923 2026-07-14 Nitrile gloves, box of 100 Disposable aprons, pack of 50 Cleaning service"
+ },
+ {
+  "file": "sheet_semicolon.csv",
+  "kind": "csv",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2026-4838",
+    "invoice_date": "2026-09-13",
+    "supplier_name": "Apex Cleaning Co",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 1469.75,
+    "tax": 72.99,
+    "total": 1547.74,
+    "currency": "USD",
+    "discount": 10.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 5.0,
+      "unit_price": 4.4,
+      "amount": 22.0
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 7.0,
+      "unit_price": 93.75,
+      "amount": 656.25
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 2.0,
+      "unit_price": 30.0,
+      "amount": 60.0
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 7.0,
+      "unit_price": 104.5,
+      "amount": 731.5
+     }
+    ]
+   },
+   {
+    "invoice_number": "BN-21813",
+    "invoice_date": "2025-07-25",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Unity Health Partners",
+    "subtotal": 2220.96,
+    "tax": 219.6,
+    "total": 2430.56,
+    "currency": "USD",
+    "discount": 25.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Blood pressure monitor",
+      "quantity": 11.0,
+      "unit_price": 45.9,
+      "amount": 504.9
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 11.0,
+      "unit_price": 3.96,
+      "amount": 43.56
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 11.0,
+      "unit_price": 135.0,
+      "amount": 1485.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 5.0,
+      "unit_price": 37.5,
+      "amount": 187.5
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Apex Cleaning Co 200 Industrial Way Gazipur 1700 Unity Health Partners 60 Unity Square Dhaka 1207 INV-2026-4838 2026-09-13 Hand sanitizer 500ml Cleaning service Patient transport service Consulting hours Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Unity Health Partners 60 Unity Square Dhaka 1207 BN-21813 25/07/2025 Blood pressure monitor Hand sanitizer 500ml Oxygen concentrator service Patient transport service"
+ },
+ {
+  "file": "defect_wrong_total.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/565",
+    "invoice_date": "2026-08-22",
+    "supplier_name": "Meghna Office Systems",
+    "customer_name": "Cottage Home Care",
+    "subtotal": 2547.75,
+    "tax": 382.16,
+    "total": 2967.41,
+    "currency": "USD",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 8.0,
+      "unit_price": 85.5,
+      "amount": 684.0
+     },
+     {
+      "description": "Patient transport service",
+      "quantity": 3.0,
+      "unit_price": 30.0,
+      "amount": 90.0
+     },
+     {
+      "description": "Medical supplies kit",
+      "quantity": 11.0,
+      "unit_price": 150.0,
+      "amount": 1650.0
+     },
+     {
+      "description": "Nitrile gloves, box of 100",
+      "quantity": 9.0,
+      "unit_price": 13.75,
+      "amount": 123.75
+     }
+    ]
+   }
+  ],
+  "defects": [
+   "TOTAL_MISMATCH"
+  ],
+  "reference_text": "Meghna Office Systems 31 Station Road Khulna 9000 Cottage Home Care 45 Elm Street Boston MA 02108 2025/565 22/08/2026 Consulting hours Patient transport service Medical supplies kit Nitrile gloves, box of 100"
+ },
+ {
+  "file": "defect_wrong_line.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "2025/146",
+    "invoice_date": "2026-05-20",
+    "supplier_name": "Padma Logistics Ltd",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 176.08,
+    "tax": 17.61,
+    "total": 193.69,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 6.0,
+      "unit_price": 18.2,
+      "amount": 120.2
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 11.0,
+      "unit_price": 6.08,
+      "amount": 66.88
+     }
+    ]
+   }
+  ],
+  "defects": [
+   "LINE_CALC_MISMATCH"
+  ],
+  "reference_text": "Padma Logistics Ltd Plot 17, Road 5 Dhaka 1230 Harmony Senior Living 18 Oak Court Chicago IL 60601 2025/146 20 May 2026 Disposable aprons, pack of 50 Printer paper A4 ream"
+ },
+ {
+  "file": "defect_no_number.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": null,
+    "invoice_date": "2026-02-12",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Harmony Senior Living",
+    "subtotal": 2120.4,
+    "tax": 318.06,
+    "total": 2438.46,
+    "currency": "BDT",
+    "discount": null,
+    "shipping": null,
+    "line_items": [
+     {
+      "description": "Medical supplies kit",
+      "quantity": 7.0,
+      "unit_price": 108.0,
+      "amount": 756.0
+     },
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 8.0,
+      "unit_price": 5.5,
+      "amount": 44.0
+     },
+     {
+      "description": "Printer paper A4 ream",
+      "quantity": 5.0,
+      "unit_price": 6.08,
+      "amount": 30.4
+     },
+     {
+      "description": "Cleaning service",
+      "quantity": 12.0,
+      "unit_price": 82.5,
+      "amount": 990.0
+     },
+     {
+      "description": "Home nursing visit",
+      "quantity": 4.0,
+      "unit_price": 75.0,
+      "amount": 300.0
+     }
+    ]
+   }
+  ],
+  "defects": [
+   "MISSING_FIELD"
+  ],
+  "reference_text": "Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Harmony Senior Living 18 Oak Court Chicago IL 60601  12 Feb 2026 Medical supplies kit Hand sanitizer 500ml Printer paper A4 ream Cleaning service Home nursing visit"
+ },
+ {
+  "file": "defect_no_date.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-9608",
+    "invoice_date": null,
+    "supplier_name": "Sunrise Equipment LLC",
+    "customer_name": "Care Guide Services",
+    "subtotal": 958.56,
+    "tax": 95.86,
+    "total": 1069.42,
+    "currency": "USD",
+    "discount": null,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Hand sanitizer 500ml",
+      "quantity": 1.0,
+      "unit_price": 3.96,
+      "amount": 3.96
+     },
+     {
+      "description": "Oxygen concentrator service",
+      "quantity": 6.0,
+      "unit_price": 150.0,
+      "amount": 900.0
+     },
+     {
+      "description": "Disposable aprons, pack of 50",
+      "quantity": 3.0,
+      "unit_price": 18.2,
+      "amount": 54.6
+     }
+    ]
+   }
+  ],
+  "defects": [
+   "MISSING_FIELD"
+  ],
+  "reference_text": "Sunrise Equipment LLC 77 Sunrise Blvd Austin TX 78701 Care Guide Services House 22, Road 9 Dhaka 1209 INV-2025-9608  Hand sanitizer 500ml Oxygen concentrator service Disposable aprons, pack of 50"
+ },
+ {
+  "file": "dup_a_original.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-4348",
+    "invoice_date": "2025-03-07",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Care Guide Services",
+    "subtotal": 1295.0,
+    "tax": 192.75,
+    "total": 1492.75,
+    "currency": "USD",
+    "discount": 10.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Home nursing visit",
+      "quantity": 6.0,
+      "unit_price": 60.0,
+      "amount": 360.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 10.0,
+      "unit_price": 93.5,
+      "amount": 935.0
+     }
+    ]
+   }
+  ],
+  "defects": [],
+  "reference_text": "Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Care Guide Services House 22, Road 9 Dhaka 1209 INV-2025-4348 March 07, 2025 Home nursing visit Wheelchair rental (monthly)"
+ },
+ {
+  "file": "dup_b_copy.pdf",
+  "kind": "digital_pdf",
+  "expect_failure": false,
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-4348",
+    "invoice_date": "2025-03-07",
+    "supplier_name": "Greenfield Medical Supplies",
+    "customer_name": "Care Guide Services",
+    "subtotal": 1295.0,
+    "tax": 192.75,
+    "total": 1492.75,
+    "currency": "USD",
+    "discount": 10.0,
+    "shipping": 15.0,
+    "line_items": [
+     {
+      "description": "Home nursing visit",
+      "quantity": 6.0,
+      "unit_price": 60.0,
+      "amount": 360.0
+     },
+     {
+      "description": "Wheelchair rental (monthly)",
+      "quantity": 10.0,
+      "unit_price": 93.5,
+      "amount": 935.0
+     }
+    ]
+   }
+  ],
+  "defects": [
+   "DUPLICATE_INVOICE"
+  ],
+  "reference_text": "Greenfield Medical Supplies 4 Park Avenue Sylhet 3100 Care Guide Services House 22, Road 9 Dhaka 1209 INV-2025-4348 March 07, 2025 Home nursing visit Wheelchair rental (monthly)"
+ },
+ {
+  "file": "corrupt_truncated_pdf.pdf",
+  "kind": "corrupt",
+  "expect_failure": true,
+  "invoices": [],
+  "defects": [],
+  "reference_text": ""
+ },
+ {
+  "file": "corrupt_garbage_pdf.pdf",
+  "kind": "corrupt",
+  "expect_failure": true,
+  "invoices": [],
+  "defects": [],
+  "reference_text": ""
+ },
+ {
+  "file": "corrupt_empty.pdf",
+  "kind": "corrupt",
+  "expect_failure": true,
+  "invoices": [],
+  "defects": [],
+  "reference_text": ""
+ },
+ {
+  "file": "corrupt_truncated_xlsx.xlsx",
+  "kind": "corrupt",
+  "expect_failure": true,
+  "invoices": [],
+  "defects": [],
+  "reference_text": ""
+ },
+ {
+  "file": "corrupt_fake_png.png",
+  "kind": "corrupt",
+  "expect_failure": true,
+  "invoices": [],
+  "defects": [],
+  "reference_text": ""
+ },
+ {
+  "file": "corrupt_text_as_pdf.pdf",
+  "kind": "corrupt",
+  "expect_failure": true,
+  "invoices": [],
+  "defects": [],
+  "reference_text": ""
+ }
+]

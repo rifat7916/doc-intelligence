@@ -1,0 +1,23 @@
+sequenceDiagram
+  participant U as Browser
+  participant A as API
+  participant R as Redis queue
+  participant W as Worker
+  participant D as PostgreSQL
+  U->>A: POST /documents (many files)
+  A->>A: stream to disk, check type and size, sha256
+  A->>D: insert document (queued)
+  A->>R: enqueue job
+  A-->>U: 202 Accepted + ids
+  R->>W: job
+  W->>D: claim row (FOR UPDATE), status processing
+  loop while processing
+    U->>A: GET /documents/id/status
+    A-->>U: stage and progress
+  end
+  W->>W: parse / OCR, extract, validate
+  W->>D: save pages, invoices, issues, chunks
+  W->>D: status completed or needs_review
+  U->>A: GET /documents/id/result
+  U->>A: PATCH /invoices/id (correction)
+  A->>D: audit trail, re-validate, refresh status

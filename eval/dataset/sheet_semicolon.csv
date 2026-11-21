@@ -1,0 +1,9 @@
+Invoice Number;Date;Vendor;Client;Item;Quantity;Price;Amount;Sub Total;Discount;Freight;VAT;Grand Total;Currency
+INV-2026-4838;2026-09-13;Apex Cleaning Co;Unity Health Partners;Hand sanitizer 500ml;5.0;4.4;22.0;1469.75;10.0;15.0;72.99;1547.74;USD
+INV-2026-4838;2026-09-13;Apex Cleaning Co;Unity Health Partners;Cleaning service;7.0;93.75;656.25;1469.75;10.0;15.0;72.99;1547.74;USD
+INV-2026-4838;2026-09-13;Apex Cleaning Co;Unity Health Partners;Patient transport service;2.0;30.0;60.0;1469.75;10.0;15.0;72.99;1547.74;USD
+INV-2026-4838;2026-09-13;Apex Cleaning Co;Unity Health Partners;Consulting hours;7.0;104.5;731.5;1469.75;10.0;15.0;72.99;1547.74;USD
+BN-21813;2025-07-25;Padma Logistics Ltd;Unity Health Partners;Blood pressure monitor;11.0;45.9;504.9;2220.96;25.0;15.0;219.6;2430.56;USD
+BN-21813;2025-07-25;Padma Logistics Ltd;Unity Health Partners;Hand sanitizer 500ml;11.0;3.96;43.56;2220.96;25.0;15.0;219.6;2430.56;USD
+BN-21813;2025-07-25;Padma Logistics Ltd;Unity Health Partners;Oxygen concentrator service;11.0;135.0;1485.0;2220.96;25.0;15.0;219.6;2430.56;USD
+BN-21813;2025-07-25;Padma Logistics Ltd;Unity Health Partners;Patient transport service;5.0;37.5;187.5;2220.96;25.0;15.0;219.6;2430.56;USD
